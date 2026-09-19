@@ -42,56 +42,51 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 16px 24px;
-  padding: 14px 20px;
+  gap: 8px 16px;
+  padding: 6px 14px;
   background: linear-gradient(180deg, var(--chrome-2), #160e1f);
-  border-bottom: 3px solid var(--orange);
+  border-bottom: 2px solid var(--orange);
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .brand__mark {
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background: var(--orange);
   color: #fff;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 13px;
   letter-spacing: 0.02em;
 }
 
 .brand h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 18px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-}
-
-.brand__sub {
-  margin-top: 3px;
-  color: var(--muted);
-  font-size: 12px;
+  line-height: 1;
 }
 
 .controls {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .control-group {
   display: flex;
-  padding: 3px;
+  padding: 2px;
   background: #0d0812;
   border: 1px solid #3a2c4a;
   border-radius: 999px;
@@ -103,9 +98,9 @@ body {
   background: transparent;
   color: #cfc3d8;
   font-family: inherit;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 7px 12px;
+  padding: 4px 10px;
   border-radius: 999px;
   cursor: pointer;
 }
@@ -127,8 +122,8 @@ body {
 .control-select {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 12px;
+  gap: 6px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--muted);
   text-transform: uppercase;
@@ -137,14 +132,14 @@ body {
 
 .control-select select {
   font-family: inherit;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--paper);
   background: #0d0812;
   border: 1px solid #3a2c4a;
-  border-radius: 8px;
-  padding: 8px 10px;
-  min-width: 180px;
+  border-radius: 6px;
+  padding: 3px 8px;
+  min-width: 160px;
 }
 
 .load-error {
@@ -189,7 +184,7 @@ body {
 .field {
   position: relative;
   overflow: hidden;
-  width: min(100%, calc((100vh - 140px) * var(--field-w) / var(--zoom-h)));
+  width: min(100%, calc((100vh - 80px) * var(--field-w) / var(--zoom-h)));
   aspect-ratio: var(--field-w) / var(--zoom-h);
   background: var(--turf-a);
   box-shadow:
@@ -198,7 +193,7 @@ body {
 }
 
 .field--full {
-  width: min(100%, calc((100vh - 140px) * var(--field-w) / var(--full-h)));
+  width: min(100%, calc((100vh - 80px) * var(--field-w) / var(--full-h)));
   aspect-ratio: var(--field-w) / var(--full-h);
 }
 
@@ -276,8 +271,8 @@ body {
   line-height: 1;
 }
 
-.field--zoomed .yard-number { font-size: clamp(14px, 2.4cqh, 28px); }
-.field--full .yard-number { font-size: clamp(8px, 1.3cqh, 14px); }
+.field--zoomed .yard-number { font-size: clamp(22px, 4.2cqh, 42px); }
+.field--full .yard-number { font-size: clamp(12px, 2.2cqh, 22px); }
 
 .end-zone {
   position: absolute;
@@ -298,7 +293,7 @@ body {
 .end-zone__text {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
-  font-size: clamp(10px, 2.2cqw, 22px);
+  font-size: clamp(14px, 3.4cqw, 32px);
   letter-spacing: 0.28em;
   color: #fff;
 }
@@ -380,30 +375,29 @@ body {
   white-space: nowrap;
 }
 
-.token__name { font-size: 10px; }
+.token__name { font-size: 14px; }
 .token__align {
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffe9a8;
 }
 
 .field--zoomed .token__disc {
-  width: clamp(22px, 3.6cqw, 32px);
-  height: clamp(22px, 3.6cqw, 32px);
-  font-size: clamp(11px, 1.9cqw, 16px);
+  width: clamp(34px, 5.6cqw, 48px);
+  height: clamp(34px, 5.6cqw, 48px);
+  font-size: clamp(16px, 2.8cqw, 24px);
 }
 
 .field--full .token__disc {
-  width: clamp(10px, 2.6cqw, 16px);
-  height: clamp(10px, 2.6cqw, 16px);
-  font-size: clamp(6px, 1.4cqw, 9px);
+  width: clamp(16px, 4cqw, 24px);
+  height: clamp(16px, 4cqw, 24px);
+  font-size: clamp(9px, 2cqw, 13px);
   border-width: 1px;
 }
 
-.field--full .token__meta {
-  display: none;
-}
+.field--full .token__name { font-size: 9px; }
+.field--full .token__align { font-size: 8px; }
 
 .panel {
   width: 300px;
