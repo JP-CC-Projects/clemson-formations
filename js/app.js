@@ -156,11 +156,13 @@
       .join("");
 
     panelEl.innerHTML =
-      '<p class="panel__jersey">#' +
+      '<h2 class="panel__title">' +
+      '<span class="panel__jersey">#' +
       player.number +
-      "</p>" +
-      '<h2 class="panel__name">' +
+      "</span>" +
+      '<span class="panel__name">' +
       player.name +
+      "</span>" +
       "</h2>" +
       '<p class="panel__class">' +
       player.class +

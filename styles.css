@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
   --orange: #f66733;
   --orange-deep: #c44d1f;
   --regalia: #522d80;
@@ -22,11 +23,14 @@
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  forced-color-adjust: none;
 }
 
 body {
   font-family: "DM Sans", system-ui, sans-serif;
-  background: radial-gradient(1200px 700px at 50% -10%, #3a2454 0%, var(--chrome) 55%);
+  background: #1b2330;
   color: var(--paper);
 }
 
@@ -143,7 +147,7 @@ body {
 }
 
 .load-error {
-  margin: 12px 20px 0;
+  margin: 0;
   padding: 12px 14px;
   background: #4a1b16;
   border: 1px solid #c44d1f;
@@ -170,41 +174,28 @@ body {
   display: flex;
   flex: 1;
   min-height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .field-stage {
   flex: 1;
   min-width: 0;
   display: grid;
-  place-items: center;
-  padding: 16px 12px 16px 20px;
+  place-items: stretch;
+  padding: 0;
+  margin: 0;
   container-type: size;
 }
 
-.field {
+.field,
+.field--full {
   position: relative;
   overflow: hidden;
-  width: min(100%, calc((100vh - 80px) * var(--field-w) / var(--zoom-h)));
-  aspect-ratio: var(--field-w) / var(--zoom-h);
+  width: 100%;
+  height: 100%;
+  margin: 0;
   background: var(--turf-a);
-  box-shadow:
-    0 0 0 3px #0a3d14,
-    0 18px 50px rgba(0, 0, 0, 0.45);
-}
-
-.field--full {
-  width: min(100%, calc((100vh - 80px) * var(--field-w) / var(--full-h)));
-  aspect-ratio: var(--field-w) / var(--full-h);
-}
-
-@supports (width: 1cqh) {
-  .field {
-    width: min(100cqw, calc(100cqh * var(--field-w) / var(--zoom-h)));
-  }
-
-  .field--full {
-    width: min(100cqw, calc(100cqh * var(--field-w) / var(--full-h)));
-  }
 }
 
 .field__markings,
@@ -402,11 +393,12 @@ body {
 .panel {
   width: 300px;
   flex-shrink: 0;
-  margin: 16px 16px 16px 0;
+  margin: 0;
   padding: 18px;
   background: var(--panel);
-  border: 1px solid #3a2c4a;
-  border-radius: 12px;
+  border: 0;
+  border-left: 1px solid #3a2c4a;
+  border-radius: 0;
   overflow: auto;
 }
 
@@ -416,22 +408,28 @@ body {
   line-height: 1.4;
 }
 
-.panel__jersey {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 42px;
+.panel__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3em;
+  margin: 0;
+  font-size: 22px;
   font-weight: 700;
-  color: var(--orange);
-  line-height: 1;
+  line-height: 1.15;
 }
 
-.field--defense + .panel .panel__jersey,
-.app:has(.field--defense) .panel__jersey {
-  color: #c4a3ef;
+.panel__jersey {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--orange);
+  line-height: inherit;
 }
 
 .panel__name {
-  margin: 6px 0 2px;
-  font-size: 22px;
+  margin: 0;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -520,11 +518,81 @@ body {
 .backup__class { color: var(--muted); font-size: 11px; }
 
 @media (max-width: 900px) {
-  .workspace { flex-direction: column; }
+  .chrome {
+    gap: 4px 8px;
+    padding: 4px 8px;
+  }
+
+  .brand { gap: 6px; }
+  .brand__mark {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+  }
+  .brand h1 { font-size: 15px; }
+
+  .controls { gap: 4px; }
+  .btn { padding: 3px 8px; font-size: 11px; }
+  .control-select { gap: 4px; }
+  .control-select select {
+    min-width: 0;
+    padding: 2px 6px;
+  }
+
+  .load-error {
+    margin: 0;
+    padding: 8px 10px;
+  }
+
+  .workspace {
+    flex-direction: column;
+  }
+
+  .field-stage {
+    width: 100%;
+  }
+
+  .field--zoomed .token__disc {
+    width: clamp(16px, 6.4cqw, 26px);
+    height: clamp(16px, 6.4cqw, 26px);
+    font-size: clamp(9px, 3.2cqw, 13px);
+    border-width: 1px;
+  }
+
+  .field--full .token__disc {
+    width: clamp(10px, 3.6cqw, 16px);
+    height: clamp(10px, 3.6cqw, 16px);
+    font-size: clamp(7px, 2cqw, 10px);
+  }
+
+  .token { gap: 0; }
+  .token__name { font-size: 9px; }
+  .token__align { font-size: 8px; }
+  .field--zoomed .yard-number { font-size: clamp(14px, 3.6cqh, 22px); }
+
   .panel {
     width: auto;
-    margin: 0 12px 12px;
-    max-height: 34vh;
+    border-left: 0;
+    border-top: 1px solid #3a2c4a;
+    max-height: 32vh;
+    padding: 8px 10px;
   }
-  .field-stage { padding: 12px; }
+
+  .panel__title { font-size: 18px; }
+  .panel__class { font-size: 12px; }
+  .panel__align { margin-top: 4px; font-size: 12px; }
+
+  .bio {
+    margin-top: 8px;
+    gap: 4px 8px;
+  }
+  .bio dd { margin-top: 1px; }
+
+  .panel__backups { margin-top: 8px; }
+  .panel__backups h2 { margin-bottom: 4px; }
+
+  .backup {
+    padding: 4px 8px;
+    margin-bottom: 3px;
+  }
 }
