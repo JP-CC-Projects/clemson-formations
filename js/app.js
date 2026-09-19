@@ -111,6 +111,9 @@
       });
       playersEl.appendChild(btn);
     });
+
+    const t = [...playersEl.children];
+    for (let k = 0; k < 8; k++) t.forEach(function (A, i) { t.forEach(function (B, j) { if (j <= i) return; var a = A.firstElementChild.getBoundingClientRect(), b = B.firstElementChild.getBoundingClientRect(), dx = a.left + a.width / 2 - (b.left + b.width / 2), dy = a.top + a.height / 2 - (b.top + b.height / 2), d = Math.hypot(dx, dy) || 0.01, need = (a.width + b.width) / 2 + 2; if (d >= need) return; var n = (need - d) / 2 / d; A.style.transform = "translate(calc(-50% + " + (A._ox = (A._ox || 0) + dx * n) + "px), calc(-50% + " + (A._oy = (A._oy || 0) + dy * n) + "px))"; B.style.transform = "translate(calc(-50% + " + (B._ox = (B._ox || 0) - dx * n) + "px), calc(-50% + " + (B._oy = (B._oy || 0) - dy * n) + "px))"; }); });
   }
 
   function renderPanel() {
