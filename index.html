@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clemson Formations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css-reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="chrome">
+      <div class="brand">
+        <span class="brand__mark">CU</span>
+        <div>
+          <h1>Clemson Formations</h1>
+          <p class="brand__sub">Bottom-up view · facing upfield</p>
+        </div>
+      </div>
+
+      <div class="controls" role="toolbar" aria-label="Formation controls">
+        <div class="control-group" role="group" aria-label="Unit">
+          <button type="button" class="btn is-active" data-unit="offense">Offense</button>
+          <button type="button" class="btn" data-unit="defense">Defense</button>
+        </div>
+
+        <label class="control-select">
+          <span>Formation</span>
+          <select id="formation-select"></select>
+        </label>
+
+        <div class="control-group" role="group" aria-label="Depth">
+          <button type="button" class="btn is-active" data-depth="0">1st</button>
+          <button type="button" class="btn" data-depth="1">2nd</button>
+          <button type="button" class="btn" data-depth="2">3rd</button>
+        </div>
+
+        <div class="control-group" role="group" aria-label="Field view">
+          <button type="button" class="btn is-active" data-view="zoomed">Zoomed</button>
+          <button type="button" class="btn" data-view="full">Full field</button>
+        </div>
+      </div>
+    </header>
+
+    <div id="load-error" class="load-error" hidden>
+      Could not load the depth chart. Check that <code>js/roster-data.js</code> is present, then
+      regenerate it with <code>python3 tools/build-roster-data.py</code>
+    </div>
+
+    <div class="workspace">
+      <div class="field-stage">
+        <div id="field" class="field field--zoomed field--offense" aria-label="Football field">
+          <div id="field-markings" class="field__markings"></div>
+          <div id="field-players" class="field__players"></div>
+        </div>
+      </div>
+
+      <aside id="detail-panel" class="panel" aria-live="polite">
+        <p class="panel__empty">Select a player on the field</p>
+      </aside>
+    </div>
+  </div>
+
+  <script src="js/roster-data.js"></script>
+  <script src="js/field.js"></script>
+  <script src="js/formations.js"></script>
+  <script src="js/roster.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

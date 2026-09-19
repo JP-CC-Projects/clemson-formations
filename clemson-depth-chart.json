@@ -1,0 +1,943 @@
+{
+  "team": "Clemson",
+  "units": {
+    "offense": {
+      "scheme": "Air Raid",
+      "positions": [
+        {
+          "position": "WR-X",
+          "depth": [
+            {
+              "number": 12,
+              "name": "Wesco Jr., Bryant",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 19,
+              "name": "Sellars III, Gordon",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 13,
+              "name": "Salmin, Connor",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "WR-Z",
+          "depth": [
+            {
+              "number": 1,
+              "name": "Moore, T.J.",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 3,
+              "name": "Smith, Tristan",
+              "class": "SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 0,
+              "name": "Burroughs, Naeem",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "WR-SL",
+          "depth": [
+            {
+              "number": 6,
+              "name": "Brown, Tyler",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 10,
+              "name": "Preston, Juju",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "LT",
+          "depth": [
+            {
+              "number": 74,
+              "name": "Jacobs, Brayden",
+              "class": "SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 54,
+              "name": "Reed, Ian",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "LG",
+          "depth": [
+            {
+              "number": 52,
+              "name": "Thurmon, Elyjah",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 50,
+              "name": "Sadler, Collin",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "C",
+          "depth": [
+            {
+              "number": 55,
+              "name": "Sewell, Harris",
+              "class": "SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 65,
+              "name": "Pendergrass, Chapman",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RG",
+          "depth": [
+            {
+              "number": 77,
+              "name": "O'Connell, Ronan",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 75,
+              "name": "Kattus, Tucker",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 51,
+              "name": "Blanchard, Gavin",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RT",
+          "depth": [
+            {
+              "number": 63,
+              "name": "Ware, Easton",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 76,
+              "name": "Wade, Mason",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "TE",
+          "depth": [
+            {
+              "number": 87,
+              "name": "Bentancur, Christian",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 11,
+              "name": "Patt-Henry, Olsen",
+              "class": "SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 7,
+              "name": "Brooking, Logan",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "QB",
+          "depth": [
+            {
+              "number": 17,
+              "name": "Vizzina, Christopher",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 2,
+              "name": "Reynolds, Tait",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 14,
+              "name": "Pearman, Trent",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RB",
+          "depth": [
+            {
+              "number": 8,
+              "name": "Davidson, Gideon",
+              "class": "SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 16,
+              "name": "Johnson Jr., Chris",
+              "class": "RS JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 21,
+              "name": "Green, Jarvis",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 24,
+              "name": "Eziomume, David",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        }
+      ]
+    },
+    "defense": {
+      "scheme": "4-2-5",
+      "positions": [
+        {
+          "position": "LDE",
+          "depth": [
+            {
+              "number": 15,
+              "name": "Lawson, Jahiem",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 14,
+              "name": "Merritt, London",
+              "class": "SO/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 23,
+              "name": "Wesley, C.J.",
+              "class": "RS SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 17,
+              "name": "Watford, Ari",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "LDT",
+          "depth": [
+            {
+              "number": 56,
+              "name": "Burburija, Andy",
+              "class": "JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 29,
+              "name": "Thompson, Champ",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 54,
+              "name": "Cody, Kam",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RDT",
+          "depth": [
+            {
+              "number": 95,
+              "name": "Adams, Amare",
+              "class": "SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 92,
+              "name": "Woods, Devarrick",
+              "class": "RS SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 91,
+              "name": "Pennington, Dietrick",
+              "class": "GR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 55,
+              "name": "Williams Lee, Makhi",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RDE",
+          "depth": [
+            {
+              "number": 13,
+              "name": "Heldt, Will",
+              "class": "SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 49,
+              "name": "Mayo, Darien",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 33,
+              "name": "Story, Caden",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 34,
+              "name": "Mason, Armon",
+              "class": "GR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "WLB",
+          "depth": [
+            {
+              "number": 7,
+              "name": "Alexander, Jeremiah",
+              "class": "RS SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 21,
+              "name": "McCloud, Kobe",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 9,
+              "name": "Woodaz, Drew",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "MLB",
+          "depth": [
+            {
+              "number": 47,
+              "name": "Brown, Sammy",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 26,
+              "name": "Kubah-Taylor, C.J.",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 50,
+              "name": "Cothran, Fletcher",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "LCB",
+          "depth": [
+            {
+              "number": 2,
+              "name": "Hampton, Ashton",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 1,
+              "name": "Strozier, Branden",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "SS",
+          "depth": [
+            {
+              "number": 22,
+              "name": "Myrick, Corey",
+              "class": "JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 5,
+              "name": "Hanafin, Ronan",
+              "class": "SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "FS",
+          "depth": [
+            {
+              "number": 6,
+              "name": "Carter III, Jerome",
+              "class": "JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 18,
+              "name": "Griffin, Kylon",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 20,
+              "name": "Kenan, Jakarrion",
+              "class": "RS FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "RCB",
+          "depth": [
+            {
+              "number": 3,
+              "name": "Washington II, Elliot",
+              "class": "SR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 0,
+              "name": "Starr, Donovan",
+              "class": "SO/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "NB",
+          "depth": [
+            {
+              "number": 8,
+              "name": "Gipson, Corian",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 10,
+              "name": "Kelley, Misun",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 27,
+              "name": "Dixon, Noah",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        }
+      ]
+    },
+    "specialTeams": {
+      "positions": [
+        {
+          "position": "PT",
+          "depth": [
+            {
+              "number": 89,
+              "name": "Smith, Jack",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 38,
+              "name": "Gunn III, Robert",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "PK",
+          "depth": [
+            {
+              "number": 81,
+              "name": "Hauser, Nolan",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 38,
+              "name": "Gunn III, Robert",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "KO",
+          "depth": [
+            {
+              "number": 38,
+              "name": "Gunn III, Robert",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 48,
+              "name": "Reed, Charlie",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "LS",
+          "depth": [
+            {
+              "number": 46,
+              "name": "Reach, Jackson",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 40,
+              "name": "Conn, Brodey",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 43,
+              "name": "Buckner, J.R.",
+              "class": "RS SO/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "H",
+          "depth": [
+            {
+              "number": 89,
+              "name": "Smith, Jack",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "PR",
+          "depth": [
+            {
+              "number": 12,
+              "name": "Wesco Jr., Bryant",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 1,
+              "name": "Moore, T.J.",
+              "class": "JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 29,
+              "name": "Byrd, Chase",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "KR",
+          "depth": [
+            {
+              "number": 16,
+              "name": "Johnson Jr., Chris",
+              "class": "RS JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 6,
+              "name": "Brown, Tyler",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        }
+      ]
+    },
+    "reserves": {
+      "positions": [
+        {
+          "position": "RES",
+          "depth": [
+            {
+              "number": 44,
+              "name": "Kelly, Kourtney",
+              "class": "RS SO/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 11,
+              "name": "Anderson, Polo",
+              "class": "FR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 53,
+              "name": "Roberto II, Joseph",
+              "class": "RS SO",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 22,
+              "name": "Turner, Cole",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 23,
+              "name": "Streko, Peyton",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 88,
+              "name": "Swinney, Clay",
+              "class": "RS SR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            },
+            {
+              "number": 99,
+              "name": "Strong, Markus",
+              "class": "RS JR/TR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        },
+        {
+          "position": "SUS",
+          "depth": [
+            {
+              "number": 45,
+              "name": "Burley, Vic",
+              "class": "RS JR",
+              "height": "",
+              "weight": "",
+              "age": "",
+              "highSchool": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
