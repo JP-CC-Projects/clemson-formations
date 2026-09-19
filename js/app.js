@@ -113,7 +113,7 @@
     });
 
     const t = [...playersEl.children];
-    for (let k = 0; k < 8; k++) t.forEach(function (A, i) { t.forEach(function (B, j) { if (j <= i) return; var a = A.firstElementChild.getBoundingClientRect(), b = B.firstElementChild.getBoundingClientRect(), dx = a.left + a.width / 2 - (b.left + b.width / 2), dy = a.top + a.height / 2 - (b.top + b.height / 2), need = ((a.width + b.width) / 2 + 2) * 2; if (Math.hypot(dx, dy) >= need) return; var n = (Math.sqrt(Math.max(0, need * need - dy * dy)) - Math.abs(dx)) / 2 * (dx === 0 ? 1 : Math.sign(dx)); A.style.transform = "translate(calc(-50% + " + (A._ox = (A._ox || 0) + n) + "px), -50%)"; B.style.transform = "translate(calc(-50% + " + (B._ox = (B._ox || 0) - n) + "px), -50%)"; }); });
+    for (let k = 0; k < 8; k++) t.forEach(function (A, i) { t.forEach(function (B, j) { if (j <= i) return; var a = A.firstElementChild.getBoundingClientRect(), b = B.firstElementChild.getBoundingClientRect(), dx = a.left + a.width / 2 - (b.left + b.width / 2), dy = a.top + a.height / 2 - (b.top + b.height / 2), need = (a.width + b.width) / 2 + 4; if (Math.hypot(dx, dy) >= need) return; var n = (Math.sqrt(Math.max(0, need * need - dy * dy)) - Math.abs(dx)) / 2 * (dx === 0 ? 1 : Math.sign(dx)); A.style.transform = "translate(calc(-50% + " + (A._ox = (A._ox || 0) + n) + "px), -50%)"; B.style.transform = "translate(calc(-50% + " + (B._ox = (B._ox || 0) - n) + "px), -50%)"; }); });
   }
 
   function renderPanel() {
